@@ -1,0 +1,149 @@
+/* =============================================
+   tacoma-styles.css
+   3rd Gen Toyota Tacoma Trim Guide
+   ============================================= */
+
+/* ---- BASE ---- */
+body {
+  background-color: #000000;
+  color: #e0e0e0;
+  font-family: Times New Roman, serif;
+  font-size: 16px;
+  margin: 8px;
+  line-height: 1.5;
+}
+
+/* ---- HEADINGS ---- */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* ---- LINKS ---- */
+a {
+  color: #6699ff;
+}
+
+a:hover {
+  color: #aabbff;
+}
+
+/* ---- PARAGRAPHS ---- */
+p {
+  color: #e0e0e0;
+  margin-bottom: 0.5em;
+}
+
+/* ---- LISTS ---- */
+ul {
+  color: #e0e0e0;
+  padding-left: 2em;
+  margin-bottom: 0.5em;
+}
+
+ul li {
+  margin-bottom: 0.2em;
+}
+
+/* ---- NAVIGATION ---- */
+nav {
+  margin-bottom: 1em;
+}
+
+nav ul {
+  list-style-type: disc;
+  padding-left: 2em;
+  margin-top: 0.3em;
+}
+
+nav ul li {
+  display: list-item;
+}
+
+/* ---- HERO SECTION ---- */
+.hero-section {
+  margin-bottom: 1em;
+}
+
+.hero-img {
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #444444;
+}
+
+/* ---- TRIM BLOCKS ---- */
+.trim-block {
+  margin-bottom: 1.5em;
+}
+
+.trim-block img {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid #444444;
+  margin-bottom: 0.5em;
+}
+
+/* ---- TABLE ---- */
+table {
+  border-collapse: collapse;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-size: 0.95em;
+  color: #e0e0e0;
+}
+
+th {
+  border: 1px solid #555555;
+  padding: 4px 10px;
+  background-color: #111111;
+  color: #ffffff;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #444444;
+  padding: 4px 10px;
+  color: #e0e0e0;
+}
+
+tr:nth-child(even) td {
+  background-color: #0d0d0d;
+}
+
+/* ---- HORIZONTAL RULE ---- */
+hr {
+  border: none;
+  border-top: 1px solid #333333;
+  margin: 1.5em 0;
+}
+
+/* ---- IFRAME (YouTube) ---- */
+iframe {
+  border: 1px solid #444444;
+  margin-top: 0.5em;
+}
+
+/* ---- FOOTER ---- */
+.footer-div {
+  margin-top: 1.5em;
+  font-size: 0.9em;
+  color: #888888;
+}
+
+.footer-div p {
+  color: #888888;
+}
